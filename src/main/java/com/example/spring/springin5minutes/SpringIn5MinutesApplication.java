@@ -10,6 +10,7 @@ public class SpringIn5MinutesApplication{
 
     public static void main(String[] args) {
 
+
        // SomeSearchImpl searchImpl = context.getBean( SomeSearchImpl.class );
        // searchImpl.binarySearch( new int[] { 1,2, 5, 8, 9}, 7);
          boolean found;

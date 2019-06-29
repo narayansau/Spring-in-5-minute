@@ -3,6 +3,8 @@ package com.example.spring.springin5minutes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+
 @Component
 public class BinarySearchImpl{
 
@@ -22,6 +24,8 @@ public class BinarySearchImpl{
        // BubbleSortAlgorithm bubbleSortAlgorithm = new BubbleSortAlgorithm();
         int[] sortenumbers = sortAlgorithm.sorts( numbers );
         System.out.println( sortAlgorithm );
+        for( int i =0 ; i < sortenumbers.length ; i++)
+        System.out.print(  sortenumbers[i]+" , " );
 
         return  true;
     }
